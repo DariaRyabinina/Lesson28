@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 @CucumberOptions(plugin = "json:target/cucumber-report.json",
         features = "src/test/resources/feature",
         glue = "org.DariaRyabinina.steps",
-        tags = "@allTest and not @test1"
+        tags = "@allTest"
         )
 
 public class Less28 extends AbstractTestNGCucumberTests {
